@@ -1,6 +1,6 @@
 import streamlit as st
 from chatbot import chatbot_response
-from speech_utlis import transcribe_speech
+from speech_utils import transcribe_speech
 
 st.title("🎤 Speech-Enabled Chatbot")
 
@@ -23,4 +23,5 @@ elif mode == "Speech":
         st.info(f"🗣️ You said: {text}")
         response = chatbot_response(text)
         st.success(f"🤖 Bot: {response}")
+
 
