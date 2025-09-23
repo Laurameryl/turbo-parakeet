@@ -11,7 +11,7 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 
 # Load data
-def load_corpusdef load_corpus(file_path="chatbot_corpus.txt"):
+def load_corpus(file_path="chatbot_corpus.txt"):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             raw = f.read().lower()
@@ -25,12 +25,16 @@ def load_corpusdef load_corpus(file_path="chatbot_corpus.txt"):
             "Goodbye! It was nice talking to you."
         ]
 
+# Initialize corpus
+corpus = load_corpus()
 
 # Simple response generator
 def chatbot_response(user_input):
     tokens = nltk.word_tokenize(user_input.lower())
     # For now, just return a random sentence from corpus
     return random.choice(corpus)
+
+
 
 
 
