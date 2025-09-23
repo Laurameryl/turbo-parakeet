@@ -1,4 +1,3 @@
 nltk
 streamlit
-speechrecognition
-pyaudio
+
