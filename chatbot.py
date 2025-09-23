@@ -1,7 +1,6 @@
 import nltk
 import random
-import stringimport nltk
-
+import string
 
 # Download required nltk data (run once)
 nltk.download('punkt')
@@ -24,4 +23,6 @@ def chatbot_response(user_input):
     tokens = nltk.word_tokenize(user_input.lower())
     # For now, just return a random sentence from corpus
     return random.choice(corpus)
+
+
 
