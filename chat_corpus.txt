@@ -1,0 +1,50 @@
+Hello! How can I help you today?
+Hi there, nice to meet you.
+What would you like to talk about?
+I’m a simple chatbot created with Python and NLTK.
+Do you want to learn more about me?
+That sounds interesting, tell me more.
+Can you explain that in another way?
+I’m here to chat with you.
+I like learning new things from our conversations.
+What do you enjoy doing in your free time?
+Do you like technology?
+I enjoy talking about AI and programming.
+Have you tried coding before?
+Python is a great language to start with.
+Streamlit makes it easy to build apps.
+Natural language processing helps machines understand text.
+Sometimes I make mistakes, but I try my best.
+That’s funny! You made me smile.
+Goodbye! It was nice talking to you.
+See you later, have a wonderful day.
+Tell me about your hobbies.
+Do you like sports or reading?
+Music is a great way to relax.
+What kind of movies do you enjoy?
+Have you traveled anywhere exciting recently?
+I’d like to visit many places around the world.
+Staying curious is a good way to learn.
+Do you have any questions for me?
+That sounds like a challenge, but you can do it.
+I believe in continuous learning.
+Failure is just another step toward success.
+It’s okay to feel stuck sometimes.
+Taking breaks can help refresh your mind.
+What motivates you the most?
+Do you like working in teams or alone?
+Creativity makes conversations fun.
+Can you teach me something new?
+I enjoy hearing your ideas.
+That’s a good question, let me think about it.
+Sometimes, asking “why” leads to interesting answers.
+I like simple solutions to complex problems.
+What goals are you working on?
+Every day is a new chance to grow.
+Do you want to hear something random?
+Here’s one: Did you know that honey never spoils?
+Elephants are the only mammals that can’t jump.
+The Eiffel Tower can be 15 cm taller in summer.
+Learning facts can be fun, right?
+Let’s keep chatting, I enjoy this.
+Thank you for spending time with me.
