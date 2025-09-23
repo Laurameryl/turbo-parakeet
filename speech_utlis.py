@@ -1,19 +1,15 @@
 import speech_recognition as sr
 
-recognizer = sr.Recognizer()
-microphone = sr.Microphone()
-
-def transcribe_speech(language="en-US"):
-    """Transcribes speech from the microphone into text."""
-    with microphone as source:
-        print("🎙️ Speak now...")
-        recognizer.adjust_for_ambient_noise(source)
+def transcribe_speech():
+    recognizer = sr.Recognizer()
+    with sr.Microphone() as source:
+        print("Listening...")
         audio = recognizer.listen(source)
-
     try:
-        text = recognizer.recognize_google(audio, language=language)
+        text = recognizer.recognize_google(audio)
         return text
     except sr.UnknownValueError:
-        return "⚠️ Could not understand audio"
+        return "Sorry, I could not understand the audio."
     except sr.RequestError:
-        return "⚠️ API unavailable"
+        return "Speech recognition service is not available."
+
